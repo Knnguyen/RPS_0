@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     let outcomeMSG = [ GameResult.Winner: ". You Win!",
         GameResult.Loser: ". You Loser!",
-        GameResult.Tie: ". It's a Tie!"]
+        GameResult.Tie: ". Draw Tie!"]
     
     // Function to filder the Actions, corresponding action
     @IBAction func makeChoice(sender: AnyObject) {
@@ -60,10 +60,10 @@ class ViewController: UIViewController {
     {
         switch(userOption, computerOption)
         {
-        case(GameChoice.Rock, GameChoice.Scissors), (GameChoice.Paper, GameChoice.Rock), (GameChoice.Scissors,GameChoice.Paper):
+        case (GameChoice.Rock, GameChoice.Scissors), (GameChoice.Paper, GameChoice.Rock), (GameChoice.Scissors,GameChoice.Paper):
             return GameResult.Winner
             
-        case(GameChoice.Scissors, GameChoice.Rock), (GameChoice.Rock,GameChoice.Paper), (GameChoice.Paper, GameChoice.Scissors):
+        case (GameChoice.Scissors, GameChoice.Rock), (GameChoice.Rock,GameChoice.Paper), (GameChoice.Paper, GameChoice.Scissors):
             return GameResult.Loser
         default:
             return GameResult.Tie

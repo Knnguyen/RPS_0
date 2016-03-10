@@ -18,7 +18,7 @@
 		9F66DAEE1C9151B9004C6F50 /* PaperCoversRock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66DAEB1C9151B9004C6F50 /* PaperCoversRock.jpg */; };
 		9F66DAEF1C9151B9004C6F50 /* ScissorsCutsPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66DAEC1C9151B9004C6F50 /* ScissorsCutsPaper.jpg */; };
 		9F66DAF01C9151B9004C6F50 /* RockCrushesScissors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66DAED1C9151B9004C6F50 /* RockCrushesScissors.jpg */; };
-		9F66DAF21C9151D1004C6F50 /* Draw-Tie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66DAF11C9151D1004C6F50 /* Draw-Tie.jpg */; };
+		9F66DAF21C9151D1004C6F50 /* DrawTie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66DAF11C9151D1004C6F50 /* DrawTie.jpg */; };
 		9F66DAF41C915BF8004C6F50 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66DAF31C915BF8004C6F50 /* GameResult.swift */; };
 		9F66DAF61C915C34004C6F50 /* GameChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66DAF51C915C34004C6F50 /* GameChoice.swift */; };
 		9F66DAF81C9163DD004C6F50 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66DAF71C9163DD004C6F50 /* ResultViewController.swift */; };
@@ -38,7 +38,7 @@
 		9F66DAEB1C9151B9004C6F50 /* PaperCoversRock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PaperCoversRock.jpg; sourceTree = "<group>"; };
 		9F66DAEC1C9151B9004C6F50 /* ScissorsCutsPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScissorsCutsPaper.jpg; sourceTree = "<group>"; };
 		9F66DAED1C9151B9004C6F50 /* RockCrushesScissors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockCrushesScissors.jpg; sourceTree = "<group>"; };
-		9F66DAF11C9151D1004C6F50 /* Draw-Tie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Draw-Tie.jpg"; sourceTree = "<group>"; };
+		9F66DAF11C9151D1004C6F50 /* DrawTie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrawTie.jpg; sourceTree = "<group>"; };
 		9F66DAF31C915BF8004C6F50 /* GameResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
 		9F66DAF51C915C34004C6F50 /* GameChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameChoice.swift; sourceTree = "<group>"; };
 		9F66DAF71C9163DD004C6F50 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		9F66DAD21C914FC7004C6F50 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
-				9F66DAF11C9151D1004C6F50 /* Draw-Tie.jpg */,
+				9F66DAF11C9151D1004C6F50 /* DrawTie.jpg */,
 				9F66DAEB1C9151B9004C6F50 /* PaperCoversRock.jpg */,
 				9F66DAEC1C9151B9004C6F50 /* ScissorsCutsPaper.jpg */,
 				9F66DAED1C9151B9004C6F50 /* RockCrushesScissors.jpg */,
@@ -160,7 +160,7 @@
 				9F66DAEF1C9151B9004C6F50 /* ScissorsCutsPaper.jpg in Resources */,
 				9F66DAD91C914FC7004C6F50 /* Main.storyboard in Resources */,
 				9F66DAF01C9151B9004C6F50 /* RockCrushesScissors.jpg in Resources */,
-				9F66DAF21C9151D1004C6F50 /* Draw-Tie.jpg in Resources */,
+				9F66DAF21C9151D1004C6F50 /* DrawTie.jpg in Resources */,
 				9F66DAEE1C9151B9004C6F50 /* PaperCoversRock.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
